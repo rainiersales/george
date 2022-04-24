@@ -18,7 +18,7 @@ Our support folder is a great place to put reusable behavior such as custom comm
 
 # Scenarios for search feature:
 
-* Scenario: As an authenticated user, I should be able to search a transaction by "<brand>"
+* Scenario: As an authenticated user, I should be able to search a transaction by "brand"
 * Scenario: As an authenticated user, I should be able to filter my search by date
 * Scenario: As an authenticated user, I should be able to filter my search by search by amount
 * Scenario: As an authenticated user, I should be able to filter my search by highlighted transactions

@@ -3,7 +3,7 @@ export const dataCy = (selector: string) => {
   }
 
 export const validateArrayItems = (SelectorPrefix: string, chars: Array <string>) => {
-    chars.forEach((char) => cy.dataCy(SelectorPrefix + char));
+    chars.forEach((char) => cy.dataCy(SelectorPrefix + char).should('be.visible'));
   }
 
 export const login = (SelectorPrefix: string, chars: Array <string>) => {

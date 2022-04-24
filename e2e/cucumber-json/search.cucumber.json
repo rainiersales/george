@@ -1,0 +1,172 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search feature sample",
+    "line": 1,
+    "id": "search-feature-sample",
+    "tags": [],
+    "uri": "search.feature",
+    "elements": [
+      {
+        "id": "search-feature-sample;as-an-authenticated-user,-i-should-be-able-to-search-a-transaction-by-\"liftago\"",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "As an authenticated user, I should be able to search a transaction by \"liftago\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go the George demo page and login",
+            "result": {
+              "status": "passed",
+              "duration": 10098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for \"liftago\"",
+            "result": {
+              "status": "passed",
+              "duration": 5343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be able to see \"liftago\" for that brand",
+            "result": {
+              "status": "passed",
+              "duration": 2675000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-feature-sample;as-an-authenticated-user,-i-should-be-able-to-search-a-transaction-by-\"dm\"",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "As an authenticated user, I should be able to search a transaction by \"dm\"",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I go the George demo page and login",
+            "result": {
+              "status": "passed",
+              "duration": 9603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for \"dm\"",
+            "result": {
+              "status": "passed",
+              "duration": 4850000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be able to see \"dm\" for that brand",
+            "result": {
+              "status": "passed",
+              "duration": 2083000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-feature-sample;as-an-authenticated-user,-i-should-be-able-to-see-no-search-results",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "As an authenticated user, I should be able to see no search results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I go the George demo page and login",
+            "result": {
+              "status": "passed",
+              "duration": 6845000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I search for \"fake brand\"",
+            "result": {
+              "status": "passed",
+              "duration": 5689000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should be able to see no search results",
+            "result": {
+              "status": "passed",
+              "duration": 1461000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-feature-sample;as-an-authenticated-user,-i-should-be-able-to-search-and-see-no-transactions-in-my-results",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "As an authenticated user, I should be able to search and see no transactions in my results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I go the George demo page and login",
+            "result": {
+              "status": "passed",
+              "duration": 10171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I search for \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 3462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should be able to no transactions in my results",
+            "result": {
+              "status": "passed",
+              "duration": 2398000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

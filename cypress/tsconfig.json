@@ -1,0 +1,16 @@
+{
+  
+  "compilerOptions": {
+    "target": "es2015",
+    "esModuleInterop": true,
+    "lib": ["es2015", "dom"],
+    "types": ["cypress"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "paths":{
+      "@fixtures/*": ["./fixtures/*"]
+    }
+
+  },
+  "include": ["**/*.ts", "plugins/index.js"]
+}

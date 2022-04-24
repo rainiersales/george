@@ -1,0 +1,8 @@
+{
+    "projectId": "z96am2",
+    "baseUrl": "https://george.csas.cz",
+    "testFiles": "**/*.feature",
+    "env":{
+        "region": "CZ"
+    }
+}

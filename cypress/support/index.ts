@@ -1,6 +1,7 @@
 import { dataCy, validateArrayItems } from './commands/selectors';
 import { login } from './commands/navigation';
 import { searchTansaction } from './commands/actions';
+import '@percy/cypress';
 
 Cypress.Commands.add('dataCy', dataCy);
 Cypress.Commands.add('validateArrayItems', validateArrayItems);

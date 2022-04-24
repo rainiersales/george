@@ -1,7 +1,7 @@
 # Overview
 In this project we provide the tests for the search functionality* in george App.
 
-## Fixtures:
+## fixtures:
 Fixtures are used to store test data which can then be used throughout the tests. Usually, the data is stored in [JSON format](https://www.w3schools.com/js/js_json_intro.asp).
 
 ## integration:

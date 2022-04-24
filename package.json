@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "e2e": "cypress open"
+    "e2e": "cypress open",
+    "visual": "percy exec -- cypress run",
+    "dashboard": "npx cypress run --record --key ea5c839a-0132-4708-8141-3b2e0d6671a3"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,8 @@
     }
   },
   "devDependencies": {
+    "@percy/cli": "^1.1.0",
+    "@percy/cypress": "^3.1.1",
     "cypress": "^9.5.4",
     "typescript": "^4.6.3"
   },
